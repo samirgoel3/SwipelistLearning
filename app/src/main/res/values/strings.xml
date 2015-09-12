@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SwipelistLearning</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_view_example">ListViewExample</string>
+    <string name="title_activity_grid_view_example">GridViewExample</string>
+    <string name="title_activity_recycler_view_example">RecyclerViewExample</string>
+    <string name="title_activity_nested_example">NestedExample</string>
+
+
+
+
+</resources>

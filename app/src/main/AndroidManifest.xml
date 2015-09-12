@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="realitysingh.spinno.com.swipelistlearning" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".ListViewExample"
+            android:label="@string/title_activity_list_view_example" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".GridViewExample"
+            android:label="@string/title_activity_grid_view_example" >
+        </activity>
+        <activity
+            android:name=".NestedExample"
+            android:label="@string/title_activity_nested_example" >
+        </activity>
+    </application>
+
+</manifest>
